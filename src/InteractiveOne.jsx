@@ -173,6 +173,30 @@ function InteractiveOne() {
 
       </svg>
 
+      <p style={{width: "700px"}}>
+        For my first interactive assignment I initially wanted to create drop down menus and allow the user to change the data displayed on the Y axis. I couldn't really wrap my head around referencing functions as variables so I decided to simplify a bit (I think I could do it now though).
+        I instead opted for a dynamic search approach, allowing the user to search for their favorite players on my ball hog graph dynamically.
+        The input is checked on every change so you can search for all players with the first name 'Stephen' for example. This gives users the ability to see where their player stands
+        in terms of their points to assists ratio. I decided to give the selected players a larger circle and red color, drawing the eye using both size and color. 
+        The idea is if a player falls high in the points distribution but low in the assists distribution, maybe they can be considered a ball hog.
+        I also added a position filter to allow users to look at the differences between positions. This gives interesting insights, as we can
+        see that point guards lean towards assists while the other positions lean more towards points.
+        This took about 10 hours to develop, with the hardest part being creating the initial interactivity using states (player lookup).
+        After that it was pretty easy to implement the filter with what I had learned. Here is a list of players that may be interesting to look at:
+      </p>
+
+      <ul>
+        <li>Stephen Curry</li>
+        <li>James Harden</li>
+        <li>Luka Doncic</li>
+        <li>Trae Young</li>
+        <li>Giannis Antetokounmpo</li>
+        <li>Frank Jackson</li>
+        <li>Cam Reddish</li>
+        <li>Jalen Suggs</li>
+      </ul>
+
+
       <br></br>
       <a href="https://www.kaggle.com/vivovinco/nba-player-stats">Data</a>
       <br></br>
